@@ -1,5 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Label text="YOU WIN!" name="youwin" style="align-self: center; height: 122px; width: 185px; font-size: 40px; color: rgb(0, 255, 40);"/>
+    <ui:Label text="WASD to move Q to reload E to shoot" style="align-self: center; color: rgb(255, 0, 252); font-size: 20px;"/>
+    <ui:Label text="YOU WIN!" name="youwin" style="align-self: center; height: 50px; width: 177px; font-size: 40px; color: rgb(0, 255, 40);"/>
     <ui:Button text="Replay?" name="replay" style="color: rgb(0, 39, 255);"/>
     <ui:Label text="YOU LOSE" name="lose" style="font-size: 40px; -unity-text-outline-color: rgb(255, 0, 0); color: rgb(255, 0, 0); align-self: center;"/>
 </ui:UXML>
